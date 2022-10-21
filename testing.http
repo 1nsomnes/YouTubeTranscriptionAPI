@@ -1,1 +1,6 @@
-GET http://localhost:4999/transcribe/?url=https://www.youtube.com/watch?v=YvKebifmXrI
+GET http://localhost:4999/transcribe 
+Content-Type: application/json
+
+{
+    "video-url": "https://www.youtube.com/watch?v=YvKebifmXrI"
+}
